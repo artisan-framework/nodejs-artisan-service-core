@@ -1,7 +1,7 @@
 /// <reference path="../../../../../typings/artisan/artisan.d.ts" />
 /// <reference path="../../../../../typings/artisan/artisan-core-data.d.ts" />
 
-import Artisan from 'artisan';
+import Artisan from 'artisan-framework';
 import ISqlCall from './ISqlCall';
 import ISqlCallDelegate from './ISqlCallDelegate';
 

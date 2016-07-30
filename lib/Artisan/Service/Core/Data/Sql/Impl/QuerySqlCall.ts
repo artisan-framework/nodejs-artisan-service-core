@@ -1,6 +1,6 @@
 ///<reference path="../../../../../../typings/artisan/artisan-core-data.d.ts"/>
 
-import Artisan from 'artisan';
+import Artisan from 'artisan-framework';
 import IQuerySqlCallDelegate from '../IQuerySqlCallDelegate';
 import SqlCall from './SqlCall';
 import SqlCallQueryResponse from './SqlCallQueryResponse';

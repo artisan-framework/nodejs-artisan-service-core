@@ -1,6 +1,6 @@
 ///<reference path="../../../../../../typings/artisan/artisan-core-data.d.ts"/>
 
-import Artisan from 'artisan';
+import Artisan from 'artisan-framework';
 import ISqlCallResponse from '../ISqlCallResponse';
 import Verify = Artisan.Core.Exceptions.Verify;
 

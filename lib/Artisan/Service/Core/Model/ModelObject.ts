@@ -1,7 +1,7 @@
 ///<reference path="../../../../typings/artisan/artisan.d.ts"/>
 ///<reference path="../../../../typings/artisan/artisan-core.d.ts"/>
 
-import Artisan from 'artisan';
+import Artisan from 'artisan-framework';
 import IModelObject from './IModelObject';
 import ModelId from './ModelId';
 import Verify = Artisan.Core.Exceptions.Verify;
