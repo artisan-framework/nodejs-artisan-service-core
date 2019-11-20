@@ -51,8 +51,6 @@ abstract class SqlCall<T> implements ISqlCall<T> {
          const transaction: ISqlTransaction = await dbCommand.beginTransaction();
 
          try {
-            console.time('executeTransaction');
-
             const result: any = await this.executeCall(dbCommand);
             await transaction.commit();
 
@@ -62,11 +60,6 @@ abstract class SqlCall<T> implements ISqlCall<T> {
             await transaction.rollback();
 
             throw ex;
-         }
-         finally {
-            console.log(this._delegate.StatementName);
-            console.timeEnd('executeTransaction');
-            console.log();
          }
       }
       catch (ex) {
